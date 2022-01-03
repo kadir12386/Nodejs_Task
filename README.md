@@ -1,10 +1,10 @@
 # Nodejs_Task
 
-#Delete movie
-#app.delete("/movies/:id", async (request, response) => 
-#{
-  #const { id } = request.params;
-  #const result = await client
+# Delete movie
+# app.delete("/movies/:id", async (request, response) => 
+# {
+  # const { id } = request.params;
+  # const result = await client
     #.db("b251we")
     .collection("movies")
     .deleteOne({ id: id });
